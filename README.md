@@ -7,7 +7,7 @@
 ```
 >> npm i -g generatejucemodule
 ```
-The `generatejucemodule` is now in your path.
+The `generatejucemodule` command is now in your path.
 
 
 
