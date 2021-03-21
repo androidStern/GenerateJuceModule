@@ -1,0 +1,25 @@
+{
+  "name": "generatejucemodule",
+  "version": "0.0.1",
+  "description": "Quickly scaffold new juce modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/androidStern/GenerateJuceModule.git"
+  },
+  "keywords": [
+    "Juce",
+    "module",
+    "scaffold",
+    "template"
+  ],
+  "author": "Andrew Stern",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/androidStern/GenerateJuceModule/issues"
+  },
+  "homepage": "https://github.com/androidStern/GenerateJuceModule#readme"
+}
