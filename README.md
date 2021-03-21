@@ -3,17 +3,12 @@
 
 <img width="762" alt="image" src="https://user-images.githubusercontent.com/6765676/111916852-3c2c1880-8a7d-11eb-9b14-af27ade8d58b.png">
 
-## Install
-```
->> npm i -g generatejucemodule
-```
-The `generatejucemodule` command is now in your path.
 
-
-
-
-## Run
+## Getting Started
+Install and run with one command thanks to `npx`:
 ```
->> generatejucemodule
+>> npx generatejucemodule
 ```
-Just run `generatejucemodule`, answer the prompts, and a juce module will be created in your current directory.
+Just answer the prompts, and a juce module will be created in your current directory.
+
+(npx comes with nodejs)
