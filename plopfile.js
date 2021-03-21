@@ -5,8 +5,16 @@ module.exports = function (plop) {
       {
         type: 'input',
         name: 'module_name',
-        message: 'Module name',
-        filter: function(txt) { return txt.split(' ').join('_'); }
+        message: "Module name",
+        filter: function(txt) {
+          return txt.split(' ').join('_');
+        },
+        validate: function(answer) {
+          if (!answer || (answer.length <= 0)) {
+            return "Please specify a module name.";
+          }
+          return true;
+        }
       },
       {
         type: 'input',
@@ -21,7 +29,13 @@ module.exports = function (plop) {
       {
         type: 'input',
         name: 'class_name',
-        message: 'Class name',
+        message: "Class name (Enter the name of the class this module exports. e.g. MySuperJuceFilter)",
+        validate: function(answer) {
+          if (!answer || (answer.length <= 0)) {
+            return "Please specify a class name.";
+          }
+          return true;
+        }
       },
       {
         type: 'input',
