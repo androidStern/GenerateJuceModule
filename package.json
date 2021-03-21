@@ -1,8 +1,9 @@
 {
   "name": "generatejucemodule",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Quickly scaffold new juce modules.",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "start": "plop"
   },
@@ -25,6 +26,5 @@
   "preferGlobal": true,
   "dependencies": {
     "plop": "^2.7.4"
-  },
-  "bin": "./index.js"
+  }
 }
