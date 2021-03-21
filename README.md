@@ -7,7 +7,7 @@
 ## Getting Started
 Install and run with one command thanks to `npx`:
 ```
->> npx generatejucemodule
+>> npx generatejucemodule@0.1.6
 ```
 Just answer the prompts, and a juce module will be created in your current directory.
 
