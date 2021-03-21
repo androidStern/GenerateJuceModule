@@ -4,11 +4,11 @@
   "description": "Quickly scaffold new juce modules.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "plop"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/androidStern/GenerateJuceModule.git"
+    "url": "https://github.com/androidStern/GenerateJuceModule.git"
   },
   "keywords": [
     "Juce",
@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/androidStern/GenerateJuceModule/issues"
   },
-  "homepage": "https://github.com/androidStern/GenerateJuceModule#readme"
+  "homepage": "https://github.com/androidStern/GenerateJuceModule#readme",
+  "preferGlobal": true,
+  "dependencies": {
+    "plop": "^2.7.4"
+  },
+  "bin": {
+    "generatejucemodule": "./index.js"
+  }
 }
