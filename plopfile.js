@@ -34,7 +34,7 @@ module.exports = function (plop) {
         type: 'input',
         name: 'license',
         message: 'License',
-      }
+      },
       {
         type: 'input',
         name: 'module_description',
