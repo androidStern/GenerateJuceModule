@@ -27,6 +27,6 @@
     "plop": "^2.7.4"
   },
   "bin": {
-    "generatejucemodule": "./index.js"
+    "gen_juce_module": "./index.js"
   }
 }
